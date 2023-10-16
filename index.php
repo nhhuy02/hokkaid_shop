@@ -1,7 +1,7 @@
-<?php require "layout/header.php"; ?>
+<?php require "./layout/header.php"; ?>
 <?php
-require_once('database/config.php');
-require_once('database/dbhelper.php');
+require_once('./database/config.php');
+require_once('./database/dbhelper.php');
 ?>
 <!-- END HEADR -->
 <main>
@@ -143,8 +143,6 @@ require_once('database/dbhelper.php');
                                 // echo $current_page;
                             }
                             for ($i = 1; $i <= $current_page; $i++) {
-                                // Nếu là trang hiện tại thì hiển thị thẻ span
-                                // ngược lại hiển thị thẻ a
                                 if ($i == $current_page) {
                                     echo '
                                     <li><a href="?page=' . $i . '">' . $i . '</a></li>';

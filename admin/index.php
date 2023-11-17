@@ -53,7 +53,7 @@
                             ?>
                             <p><a href="product/">xem chi tiết➜</a></p>
                         </div>
-                        <div class="sp kh">
+                        <!-- <div class="sp kh">
                             <p>Khách hàng</p>
                             <?php
                             $sql = "SELECT * FROM `user`";
@@ -62,7 +62,7 @@
                             echo '<span>' . mysqli_num_rows($result) . '</span>';
                             ?>
                             <p><a href="">xem chi tiết➜</a></p>
-                        </div>
+                        </div> -->
                         <div class="sp dm">
                             <p>Danh mục</p>
                             <?php

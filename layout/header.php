@@ -21,7 +21,7 @@ require_once('database/dbhelper.php');
         <header>
             <div class="container">
                 <section class="logo">
-                    <a href="index.php"><img src="images/logo-grabfood.svg" alt=""></a>
+                    <a href="index.php"><img src="images/logo_footer.png" alt=""></a>
                 </section>
                 <nav>
                     <ul>

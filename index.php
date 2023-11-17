@@ -82,7 +82,7 @@ require_once('./database/dbhelper.php');
 
             <section class="restaurants">
                 <div class="title">
-                    <h1>Thực đơn tại quán <span class="green">Thành Coffee</span></h1>
+                    <h1>Thực đơn tại <span class="green">Hokkaid</span></h1>
                 </div>
                 <div class="product-restaurants">
                     <div class="row">

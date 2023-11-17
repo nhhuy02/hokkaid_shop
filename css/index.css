@@ -234,6 +234,7 @@ main #ant-layout section.main-layout .row {
   grid-template-columns: auto auto auto auto auto auto;
   grid-column-gap: 10px;
 }
+
 main #ant-layout section.main-layout .row .box a {
   text-decoration: none;
 }
@@ -505,7 +506,15 @@ footer .container {
 footer .container .logo {
   padding: 20px 0;
   border-bottom: 1px solid white;
-} 
+}
+
+footer .container .logo a{
+  width: 30%;
+}
+
+footer .container .logo a img {
+  width: 60%;
+}
 footer .container .link {
   display: grid;
   grid-template-columns: auto auto auto auto;
